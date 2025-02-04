@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav a {
+  color: #000000;
+  text-decoration: none;
+  padding: 10px;
+}
+.div-bar {
+  background-color: #2e2648;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+.amount {
+  font-weight: bold;
+  margin-right: 5px;
+}
+li {
+  list-style-type: none;
+}
+h2 {
+  text-align: center;
+  margin: 20px;
+}
+.prli {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  max-width: 1000px;
+}
+.prcard {
+  max-width: 250px;
+  margin: 5px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.prcard img {
+  width: 220px;
+  height: auto;
+  /* как побокам убрать такие отсутпы */
+}
+@media (max-width: 768px) {
+  .prcard {
+    justify-content: center;
+  }
+}
+.what-makes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+.what-makes li {
+  margin-bottom: 10px;
+  text-align: left;
+}
+.what-makes img {
+  margin-bottom: 10px;
+  width: 20px;
+  height: auto;
+}
+.what-makes strong {
+  display: block;
+}
