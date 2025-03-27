@@ -55,7 +55,6 @@ h2 {
 .prcard img {
   width: 220px;
   height: auto;
-  /* как побокам убрать такие отсутпы */
 }
 @media (max-width: 768px) {
   .prcard {
